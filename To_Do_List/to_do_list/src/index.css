@@ -1,0 +1,105 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body styling */
+body {
+  background: linear-gradient(to right, #74ebd5, #acb6e5);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 60px 20px;
+}
+
+/* Main heading */
+h1 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+/* Input area */
+div {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.iContainer {
+  padding: 14px 20px;
+  width: 400px;  /* Increased width */
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  margin-right: 15px;
+  outline: none;
+}
+
+button {
+  padding: 14px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Todo list container */
+.Conatiner {
+  width: 500px; /* Increased width */
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+/* Individual todo */
+.todoCon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+  padding: 14px 18px;
+  margin: 12px 0;
+  border-radius: 10px;
+  transition: transform 0.2s ease;
+}
+
+.todoCon:hover {
+  transform: scale(1.02);
+}
+
+.todoCon p {
+  margin-right: auto;
+  font-size: 18px;
+  word-wrap: break-word;
+  flex: 1;
+}
+
+.todoCon input[type="checkbox"] {
+  margin-right: 15px;
+  transform: scale(1.4);
+}
+
+.todoCon button {
+  background-color: #e74c3c;
+  padding: 8px 14px;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.todoCon button:hover {
+  background-color: #c0392b;
+}
